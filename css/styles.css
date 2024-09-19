@@ -99,7 +99,8 @@ background-color:#FFFFFF;
         cursor: pointer;
         background-color: #4d5ae5;
 }
-
+.page-button:focus,
+.page-button:hover,
 .button-color:focus,
 .button-color:hover {
     background-color;: #404bbf
@@ -128,8 +129,8 @@ background-color:#FFFFFF;
 /*==========/2 SECTION==========*/
 
 /*==========3 SECTION==========*/
-.page-our-team {
-    background: #f4f4fd;
+.page-third-section {
+    background-color: #f4f4fd;
 }
 
 .page-our-team {
