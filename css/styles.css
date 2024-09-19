@@ -1,32 +1,29 @@
 /*======== Common Styles ========*/
 ul,
-ol {
-    list-style-type: none;
-}
-
+ol,
 a {
-    text-decoration: none;
+    list-style-type: none;   
+     text-decoration: none;
 }
 
 button {
     cursor: pointer;
 }
 
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-}
-
 /*========== /Common Styles ==========*/
 
 /*==========HEADER STYLE==========*/
+body {
+font-family: "Roboto", sans-serif;
+color: #434455;
+background-color:#FFFFFF;
+}
 .page-header {
     background: #FFFFFF;
 }
 
 .page-logo {
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -36,7 +33,7 @@ body {
 }
 
 .text-color {
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -44,7 +41,7 @@ body {
     text-transform: uppercase;
     color: #2e2f42;
 }
-
+.menu-item,
 .menu-link {
     font-weight: 500;
     font-size: 16px;
@@ -61,7 +58,7 @@ body {
 .page-address {
     font-style: normal;
 }
-
+.menu-address-item,
 .menu-address-link {
     font-weight: 400;
     font-size: 16px;
@@ -82,10 +79,10 @@ body {
 /*==========1 SECTION==========*/
 .page-section {
     background-color: #2e2f42;
+    font-weight: 700;
 }
 
 .page-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -94,25 +91,24 @@ body {
 }
 
 .button-color {
-    background-color: #4d5ae5;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        cursor: pointer;
+        background-color: #4d5ae5;
 }
 
 .page-button:focus,
 .page-button:hover {
-    color: #404bbf
+    background-color;: #404bbf
 }
 
 /*==========/1 SECTION==========*/
 
 /*==========2 SECTION=========*/
 .page-character,
-.menu-description,
-.menu-descriptio-item,
 .menu-descr {
     font-weight: 500;
     font-size: 20px;
@@ -132,7 +128,7 @@ body {
 /*==========/2 SECTION==========*/
 
 /*==========3 SECTION==========*/
-.page-section-team {
+.page-third-section {
     background: #f4f4fd;
 }
 
@@ -146,7 +142,7 @@ body {
     text-transform: capitalize;
 }
 
-.menu-team {
+.menu-team-item {
     background-color: #FFFFFF;
 }
 
@@ -171,9 +167,7 @@ body {
 /*==========/3 SECTION==========*/
 
 /*==========4 SECTION==========*/
-.page-third-section- {
-    background-color: #FFFFFF;
-}
+
 
 .page-portfolio {
     font-weight: 700;
@@ -209,7 +203,7 @@ body {
 }
 
 .page-logo-footer {
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -219,7 +213,7 @@ body {
 }
 
 .text-color-footer {
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
