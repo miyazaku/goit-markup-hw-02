@@ -89,7 +89,7 @@ background-color:#FFFFFF;
     text-align: center;
     color: #fff;
 }
-
+.page-button,
 .button-color {
         font-weight: 500;
         font-size: 16px;
@@ -100,8 +100,8 @@ background-color:#FFFFFF;
         background-color: #4d5ae5;
 }
 
-.page-button:focus,
-.page-button:hover {
+.button-color:focus,
+.button-color:hover {
     background-color;: #404bbf
 }
 
@@ -128,7 +128,7 @@ background-color:#FFFFFF;
 /*==========/2 SECTION==========*/
 
 /*==========3 SECTION==========*/
-.page-third-section {
+.page-our-team {
     background: #f4f4fd;
 }
 
