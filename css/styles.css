@@ -1,0 +1,19 @@
+/*======== Common Styles ========*/
+ul,
+ol,
+a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/*========== /Common Styles ==========*/
+
+/*======== /Header Styles ========*/
+
+page-header{
+    
+}
