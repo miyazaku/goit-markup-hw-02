@@ -10,13 +10,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css"/>
     
 </head>
 
 <body>
     <header class="page-header">
+        <div class=" container container-header"> 
         <!--TOP LINE-->
         <nav class="page-nav">
             <a class="page-logo" href="./index.html">Web<span class="logo-color">Studio</span></a>
@@ -45,19 +46,23 @@
                 </li>
             </ul>
         </address>
+        </div>
     </header>
 
-    <main class="page-main">
+    <main>
         <!--HERO IMAGE-->
         <section class="page-hero">
+            <div class="container container-button">
             <h1 class="page-title">Effective Solutions For Your Business</h1>
             <button class="page-button" type="button"><span class="button-color">Order Service</span>
             </button>
+            </div>
         </section>
 
         <!--DESCRIPTION SECTION-->
-        <section class="page-description">
-          <h2 class="page-character">Character</h2>
+        <section class="page-description section-padding">
+            <div class="container">
+          <h2 class="visually-hidden">Character</h2>
           <ul class="menu-description">
             <li class="menu-description-item">
                 <h3 class="menu-descr">Strategy</h3>
@@ -65,7 +70,7 @@
             </li>
             <li class="menu-description-item">
                 <h3 class="menu-descr">Punctuality</h3>
-                <p class="menu-text" Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                <p class="menu-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
             </li>
             <li class="menu-description-item">
                 <h3 class="menu-descr">Diligence</h3>
@@ -76,77 +81,104 @@
                 <p class="menu-text">Design practice focused on digital experiences.We bring forth a deep passion for problem-solving.</p>
             </li>
           </ul>
+            </div>
         </section>
 
         <!--TEAM SECTION-->
-        <section class="page-team">
+        <section class="page-team section-padding">
+            <div class="container">
             <h2 class="page-title-team">Our Team</h2>
             <ul class="menu-team">
                 <li class="menu-team-item">
-                    <img class="menu-img" src="./images/img1.jpg" alt="foto-Mark">
+                    <img class="menu-img" src="./images/img1.jpg" alt="foto-Mark" width="264" height="260" />
+                    <div class="container-card">
                     <h3 class="menu-team-name">Mark Guerrero</h3>
                     <p class="menu-team-text">Product Designer</p>
+                    </div>
                 </li>
                 <li class="menu-team-item">
-                    <img class="menu-img" src="./images/img2.jpg" alt="foto-Tom">
+                    <img class="menu-img" src="./images/img2.jpg" alt="foto-Tom" width="264" height="260" />
+                    <div class="container-card">
                     <h3 class="menu-team-name">Tom Ford</h3>
                     <p class="menu-team-text">Fronted Developer</p>
+                    </div>
                 </li>
                 <li class="menu-team-item">
-                    <img class="menu-img" src="./images/img3.jpg" alt="foto-Camila">
+                    <img class="menu-img" src="./images/img3.jpg" alt="foto-Camila" width="264" height="260" />
+                    <div class="container-card">
                     <h3 class="menu-team-name">Camila Garcia</h3>
                     <p class="menu-team-text">Marketing</p>
+                </div>
                 </li>
                 <li class="menu-team-item">
-                    <img class="menu-img" src="./images/img4.jpg" alt="foto-Daniel">
+                    <img class="menu-img" src="./images/img4.jpg" alt="foto-Daniel" width="264" height="260" />
+                    <div class="container-card">
                     <h3 class="menu-team-name">Daniel Wilson</h3>
                     <p class="menu-team-text">UI Designer</p>
+                </div>
                 </li>
             </ul>
+            </div>
         </section>
 
         <!--PORTFOLIO SECTION-->
-        <section class="page-portfolio">
+        <section class="page-portfolio section-padding">
+            <div class="container">
             <h2 class="page-title-portfolio">Our Portfolio</h2>
             <ul class="menu-portfolio">
                 <li class="menu-portfolio-item">
-                    <img class="menu-portfolio-img" src="./images/img5.jpg" alt="foto-banking-app">
+                    <img class="menu-portfolio-img" src="./images/img5.jpg" alt="foto-banking-app" width="360" height="300" />
+                    <div class="container-card-portfolio">
                     <h3 class="menu-portfolio-name">Banking App</h3>
                     <p class="menu-portfolio-text">App</p>
+                </div>
                 </li>
                 <li class="menu-portfolio-item">
-                    <img class="menu-portfolio-img" src="./images/img6.jpg" alt="foto-cashless-payment">
+                    <img class="menu-portfolio-img" src="./images/img6.jpg" alt="foto-cashless-payment" width="360" height="300" />
+                    <div class="container-card-portfolio">
                     <h3 class="menu-portfolio-name">Cashless Payment</h3>
                     <p class="menu-portfolio-text">Marketing</p>
+                </div>
                 </li>
                 <li class="menu-portfolio-item">
-                    <img class="menu-portfolio-img" src="./images/img7.jpg" alt="foto-meditation-app">
+                    <img class="menu-portfolio-img" src="./images/img7.jpg" alt="foto-meditation-app" width="360" height="300" />
+                    <div class="container-card-portfolio">
                     <h3 class="menu-portfolio-name">Meditation App</h3>
                     <p class="menu-portfolio-text">App</p>
+                </div>
                 </li>
                 <li class="menu-portfolio-item">
-                    <img class="menu-portfolio-img" src="./images/img8.jpg" alt="foto-taxi-service">
+                    <img class="menu-portfolio-img" src="./images/img8.jpg" alt="foto-taxi-service" width="360" height="300" />
+                    <div class="container-card-portfolio">
                     <h3 class="menu-portfolio-name">Taxi Service</h3>
                     <p class="menu-portfolio-text">Marketing</p>
+                </div>
                 </li>
                 <li class="menu-portfolio-item">
-                    <img class="menu-portfolio-img" src="./images/img9.jpg" alt="foto-screen-illustrations">
+                    <img class="menu-portfolio-img" src="./images/img9.jpg" alt="foto-screen-illustrations" width="360" height="300" />
+                    <div class="container-card-portfolio">
                     <h3 class="menu-portfolio-name">Screen Illustrations</h3>
                     <p class="menu-portfolio-text">Design</p>
+                </div>
                 </li>
                 <li class="menu-portfolio-item">
-                    <img class="menu-portfolio-img" src="./images/img10.jpg" alt="foto-online-courses">
+                    <img class="menu-portfolio-img" src="./images/img10.jpg" alt="foto-online-courses" width="360" height="300" />
+                    <div class="container-card-portfolio">
                     <h3 class="menu-portfolio-name">Online Courses</h3>
                     <p class="menu-portfolio-text">Marketing</p>
+                </div>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
 
     <!--FOOTER-->
     <footer class="page-footer">
+        <div class="container">
         <a class="page-logo-footer" href="./index.html">Web<span class="logo-footer-color">Studio</span></a>
         <p class="page-footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+        </div>
     </footer>
 </body>
 
